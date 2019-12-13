@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF000000"
+    tools:context="com.example.reviewfilm.rilis">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_kalkulator"
+        android:background="#FFCCFFFF"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/posterbaru" />
+
+        <LinearLayout
+            android:layout_marginLeft="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="KIM JI-YOUNG, BORN 1982"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="141dp"
+                android:text="STARRING : Yu-mi Jung, Yoo Gong, Mi-kyeong Kim \nDIRECTOR : Do-young Kim \n
+CENSOR RATING : 13+\nGENRE : DRAMA\nLANGUAGE : Korean\n SUBTITLE : ENG  dan BAHASA IND\n
+DURATION : 118 Minute"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="#FFCCFFCC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ppanjang"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="127dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/posterbaru1" />
+
+        <LinearLayout
+            android:layout_marginLeft="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EGGNOID"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="152dp"
+                android:text="STARRING : Morgan Oey, Sheila Dara, Kevin Julio, Luna Maya, Anggika Bolsterli\n
+DIRECTOR : Naya Anandita\n
+CENSOR RATING : 13+\n
+GENRE : DRAMA\n
+LANGUAGE : BAHASA INDONESIA\n
+SUBTITLE : None\n
+DURATION : 102 Minutes.."
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="6dp"
+        android:background="#FFCCFFFF"
+        android:id="@+id/btn_segitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="133dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/posterbaru2" />
+
+        <LinearLayout
+            android:layout_marginLeft="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="RATU ILMU HITAM"/>
+
+            <TextView
+                android:layout_width="251dp"
+                android:layout_height="158dp"
+                android:text="STARRING : Ario Bayu, Hannah Al Rasyid, Zarra JKT48, Ari Irham\n
+DIRECTOR : Kimo Stamboel\n
+CENSOR RATING : 17+\n
+GENRE : HORROR\n
+LANGUAGE : BAHASA INDONESIA\n
+SUBTITLE : None\n
+DURATION : 100 Minutes"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:background="#FFCCFFCC"
+        android:layout_marginBottom="6dp"
+        android:id="@+id/btn_lingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="124dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/posterfilm3" />
+
+        <LinearLayout
+            android:layout_marginLeft="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="JUMANJI: THE NEXT LEVEL"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:text="DIRECTOR : Jake Kasdan\nSTARRING : Dwayne Johnson, Karen Gillan, Jack Black, Kevin Hart, Nick Jonas, Danny DeVito\nCENSOR RATING : 13+
+\nGENRE : ACTION
+\nLANGUAGE : English
+\nSUBTITLE : BAHASA INDONESIA
+\nDURATION : 122 Minutes"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button android:text="Exit"
+        android:id="@+id/btnexit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:textColor="#292012">
+
+    </Button>
+
+</LinearLayout>
+

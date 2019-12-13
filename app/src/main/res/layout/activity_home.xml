@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FDD835"
+    tools:context=".home">
+
+    <LinearLayout
+android:id="@+id/btn1"
+android:layout_width="wrap_content"
+android:layout_height="149dp"
+android:layout_marginLeft="6dp"
+android:layout_marginTop="6dp"
+android:layout_marginRight="6dp"
+android:layout_marginBottom="6dp"
+android:background="#090808"
+android:orientation="horizontal">
+
+<ImageView
+    android:layout_width="154dp"
+    android:layout_height="match_parent"
+    android:src="@drawable/poster6" />
+
+        <LinearLayout
+            android:layout_width="229dp"
+            android:layout_height="167dp"
+            android:layout_marginLeft="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Segera Rilis"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menampilkan Informasi Film "
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="184dp"
+                android:layout_height="61dp"
+                android:text="Yang Akan Di rilis di bioskop"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+
+</LinearLayout>
+<LinearLayout
+android:id="@+id/btn2"
+android:layout_width="384dp"
+android:layout_height="149dp"
+android:layout_marginLeft="6dp"
+android:layout_marginTop="6dp"
+android:layout_marginRight="6dp"
+android:layout_marginBottom="6dp"
+android:background="#090808"
+android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="141dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/poster3" />
+
+    <LinearLayout
+    android:layout_width="254dp"
+    android:layout_height="182dp"
+    android:layout_marginLeft="4dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Rilis "
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menampilkan Informasi Film"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:text="Yang Sedang Tayang Di bioskop"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
+
+</LinearLayout>
+<LinearLayout
+android:onClick="gmail"
+android:layout_width="384dp"
+android:layout_height="149dp"
+android:layout_marginLeft="6dp"
+android:layout_marginTop="6dp"
+android:layout_marginRight="6dp"
+android:layout_marginBottom="6dp"
+android:background="#090808"
+android:orientation="horizontal">
+
+<ImageView
+    android:layout_width="140dp"
+    android:layout_height="140dp"
+    android:src="@drawable/poster4" />
+
+<LinearLayout
+    android:layout_width="254dp"
+    android:layout_height="182dp"
+    android:layout_marginLeft="4dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saran"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ayo berikan kami masukan "
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="188dp"
+        android:layout_height="27dp"
+        android:text="Klik button Ini"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+
+</LinearLayout>
+</LinearLayout>
+
+
+    </LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Review Film</string>
+    <string name="NamaFilm">Judul</string>
+    <string name="position">tanggal rilis</string>
+    <string name="birth_date">rating </string>
+    <string name="no">no</string>
+</resources>
